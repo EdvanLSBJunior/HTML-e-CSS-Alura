@@ -1,41 +1,85 @@
 body {
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
-.titulo-pricipal {
-    padding-left: 20px;
+header {
+    background-color: #BBBBBB;
+    padding: 20px;
 }
 
-#banner {
+.box-header {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.banner {
     width: 100%;
+    margin: 0 0 2em;
 }
 
-.titulo-centralizado {
+.titulo-principal {
+    font-weight: bold;
     text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear:left
 }
 
-p {
-    text-align: center;
-    
+.utensilios {
+    width: 140px;
+    float: left;
+    margin: 0 20px 10px;
 }
 
-#missao {
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
     font-size: 20px;
 }
 
-em strong {
-    color: #FF0000;
+.localizacao {
+    text-align: center;
 }
 
-.principal {
-    padding: 30px;
-    background-color: #CCCCCC;
+.mapa {
+    margin: 2em auto;
 }
 
 .beneficios {
     padding: 20px;
     background: #FFFFFF;
-
 }
 
 .itens {
@@ -43,15 +87,23 @@ em strong {
 }
 
 
-ul {
+.beneficios ul {
     display: inline-block;
     vertical-align: top;
     margin-right: 15%;
+}
 
+.beneficios h3 {
+    margin-bottom: 1em;
 }
 
 .imagem-beneficios {
-    width: 50%;
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
 }
 
 footer {
